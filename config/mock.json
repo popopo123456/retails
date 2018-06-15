@@ -1,0 +1,144 @@
+{
+  "/api/petMember/app/memberDetail/v1": {
+    "userNo": "0001",
+    "nickName": "用户名",
+    "gender": "女",
+    "birthday": "1990-09-09",
+    "telephone": "15888888888",
+    "avatarUrl": "https://img.yzcdn.cn/public_files/2017/09/05/3bd347e44233a868c99cf0fe560232be.jpg",
+    "province": "1003",
+    "province_name": "江苏省",
+    "city": "100301",
+    "city_name": "苏州市",
+    "district": "110102",
+    "district_name": "工业园区",
+    "pets": [
+      {
+        "petNo": "001",
+        "petName": "狗狗",
+        "gender": 1,
+        "sterilizationStatus": 1,
+        "avatar": "https://img.yzcdn.cn/upload_files/2017/03/15/FkubrzN7AgGwLlTeb1E89-T_ZjBg.png",
+        "birthday": "2017-01-01",
+        "petCatgNo": "1",
+        "petTypeNo": "1"
+      },
+      {
+        "petNo": "002",
+        "petName": "猫咪",
+        "gender": 1,
+        "sterilizationStatus": 2,
+        "avatar": "https://img.yzcdn.cn/upload_files/2017/03/15/FkubrzN7AgGwLlTeb1E89-T_ZjBg.png",
+        "birthday": "2017-01-01",
+        "petCatgNo": "1",
+        "petTypeNo": "1"
+      }
+    ]
+  },
+  "/api/petMember/app/updateMembe": {
+    "data": true
+  },
+  "/api/getAreaList": {
+    "province_list": {
+      "110000": "江苏省",
+      "120000": "浙江省"
+    },
+    "city_list": {
+      "110100": "苏州市",
+      "110200": "常州市",
+      "120100": "杭州市",
+      "120200": "宁波市"
+    },
+    "county_list": {
+      "110101": "东城区",
+      "110102": "西城区",
+      "110105": "朝阳区",
+      "110106": "丰台区",
+      "120101": "和平区",
+      "120102": "河东区",
+      "120103": "河西区",
+      "120104": "南开区",
+      "120105": "河北区"
+    }
+  },
+  "/api/petMember/app/getMyPetList/v1": [
+    {
+      "petCatgName": "狗狗",
+      "petCatgNo": "1"
+    },
+    {
+      "petCatgName": "猫咪",
+      "petCatgNo": "2"
+    },
+    {
+      "petCatgName": "虫类",
+      "petCatgNo": "3"
+    }
+  ],
+  "/api/petMember/app/getMyPetList/v1": [
+    {
+      "petCatgName": "哈士奇",
+      "petCatgNo": "1"
+    },
+    {
+      "petCatgName": "藏獒",
+      "petCatgNo": "2"
+    },
+    {
+      "petCatgName": "贵宾犬",
+      "petCatgNo": "3"
+    },
+    {
+      "petCatgName": "松狮",
+      "petCatgNo": "4"
+    },
+    {
+      "petCatgName": "cccc",
+      "petCatgNo": "5"
+    },
+    {
+      "petCatgName": "德国牧羊犬",
+      "petCatgNo": "4"
+    },
+    {
+      "petCatgName": "博美犬",
+      "petCatgNo": "5"
+    },
+    {
+      "petCatgName": "卡斯罗",
+      "petCatgNo": "6"
+    },
+    {
+      "petCatgName": "法国斗牛犬",
+      "petCatgNo": "7"
+    },
+    {
+      "petCatgName": "萨摩耶犬",
+      "petCatgNo": "8"
+    },
+    {
+      "petCatgName": "阿富汗猎犬",
+      "petCatgNo": "9"
+    },
+    {
+      "petCatgName": "西高地白梗",
+      "petCatgNo": "10"
+    },
+    {
+      "petCatgName": "比利时牧羊犬",
+      "petCatgNo": "11"
+    },
+    {
+      "petCatgName": "斗牛梗",
+      "petCatgNo": "12"
+    },
+    {
+      "petCatgName": "zzzz",
+      "petCatgNo": "13"
+    },
+    {
+      "petCatgName": "$####",
+      "petCatgNo": "13"
+    }
+  ]
+}
